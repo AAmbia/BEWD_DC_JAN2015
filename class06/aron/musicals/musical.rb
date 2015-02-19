@@ -9,8 +9,6 @@ ActiveRecord::Base.establish_connection(
 	:database => "broadway_db"
 	)
 
-#go...
-
 class Musical < ActiveRecord::Base
 	has_many :songs, dependent: :destroy
 
