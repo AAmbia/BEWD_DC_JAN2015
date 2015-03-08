@@ -1,6 +1,6 @@
 #MovieTrail.er
 
-We're going to build an app to keep track of our favorite movies, look at photos of characters in that movie, and watch the trailers that came out for that movie.
+We're going to build an app to keep track of our favorite movies and watch the trailers that came out for that movie.
 
 A Movie has:
 
@@ -32,7 +32,8 @@ Here's here you find the video_id:
 ## Part 2 - Models & ActiveRecord
 * Set up your models using ActiveRecord. Test them to make sure they work and they are associated correctly.
 
-* Create AT LEAST 3 movies with 2 characters and 1 trailer each so you have a good amount of data to start with. You can / should do this using your seeds file.
+
+* Create AT LEAST 3 movies with 2 trailers each so you have a good amount of data to start with. You can / should do this using your seeds file.
 
 ## Part 3 - Routes, Controllers & Views
 * Build out your Rails app one route at a time. Make sure to test it before moving on to the next route. You should have controller actions for index, new, create, show, update and destroy.
