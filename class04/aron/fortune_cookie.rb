@@ -1,0 +1,4 @@
+
+def FortuneCookie
+
+end
