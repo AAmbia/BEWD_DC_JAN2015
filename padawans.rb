@@ -1,4 +1,3 @@
-
 require 'active_record'
 require 'pry'
 
@@ -16,4 +15,3 @@ class Padawan < ActiveRecord::Base
 end
 
 binding.pry
-

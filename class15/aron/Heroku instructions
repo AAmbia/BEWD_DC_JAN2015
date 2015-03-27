@@ -1,0 +1,11 @@
+Once installed, you can use the heroku command from your command shell.
+
+Log in using the email address and password you used when creating your Heroku account:
+
+ heroku login
+Enter your Heroku credentials.
+Email: ruby@example.com
+Password:
+Authentication successful.
+
+Authenticating is required to allow both the heroku and git commands to operate.

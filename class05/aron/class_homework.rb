@@ -7,13 +7,16 @@ ActiveRecord::Base.establish_connection(
 	:host => "/var/run/postgresql",
 	:username => "aron",
 	:password => "Israel",
-	:database => "jedi_academy"
+	:database => "class05_homework"
 	)
 
 #go...
 
-class Padawan < ActiveRecord::Base
+class Dog < ActiveRecord::Base
+	validates :name, presence: true
+	validates: age, presence: true
 end
 
+Dog.create(name: "Fluffy" age: 5)
+ 
 binding.pry
-
