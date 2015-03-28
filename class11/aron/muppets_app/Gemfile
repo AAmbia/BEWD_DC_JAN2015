@@ -43,3 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+<<<<<<< HEAD
+=======
+gem 'pry-rails'
+>>>>>>> dfef7a4e96a47bea226ae97a9d5221b2b7f16d41

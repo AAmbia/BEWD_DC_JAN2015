@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
 
+<<<<<<< HEAD
+=======
+  resources :muppets
+
+>>>>>>> dfef7a4e96a47bea226ae97a9d5221b2b7f16d41
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -13,7 +18,11 @@ Rails.application.routes.draw do
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
+<<<<<<< HEAD
   resources :muppets
+=======
+  #   resources :products
+>>>>>>> dfef7a4e96a47bea226ae97a9d5221b2b7f16d41
 
   # Example resource route with options:
   #   resources :products do

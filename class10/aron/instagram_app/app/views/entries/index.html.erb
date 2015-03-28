@@ -1,0 +1,7 @@
+<h1>The lovely photo app!</h1>
+
+<ul>
+  <% @entry.each do |entry| %>
+    <li><a href="/entries/<%= author.id %>"><%= entry.author %></a></li>
+  <% end %>
+</ul>

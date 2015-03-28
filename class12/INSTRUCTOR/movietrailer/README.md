@@ -8,6 +8,11 @@ A Movie has:
 * year
 * poster_url
 
+A Character has:
+
+* name
+* photo_url
+
 A Trailer has:
 
 * title
@@ -26,6 +31,7 @@ Here's here you find the video_id:
 
 ## Part 2 - Models & ActiveRecord
 * Set up your models using ActiveRecord. Test them to make sure they work and they are associated correctly.
+
 
 * Create AT LEAST 3 movies with 2 trailers each so you have a good amount of data to start with. You can / should do this using your seeds file.
 

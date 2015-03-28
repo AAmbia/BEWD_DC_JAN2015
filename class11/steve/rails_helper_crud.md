@@ -221,13 +221,13 @@ View in `app/views/muppets/new.html.erb`:
  <h1>Add a muppet</h1>
  
  <%= form_for @muppet do |f| %>
- 	<%= f.label :name %>
- 	<%= f.text_field :name %>
- 	
- 	<%= f.label :image_url %>
- 	<%= f.text_field :image_url %>
- 	
- 	<%= f.submit %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  
+  <%= f.label :image_url %>
+  <%= f.text_field :image_url %>
+  
+  <%= f.submit %>
  <% end %>
 ```
 
@@ -296,13 +296,13 @@ View in `app/views/muppets/edit.html.erb`:
  <h1>Edit <%= @muppet.name %></h1>
  
  <%= form_for @muppet do |f| %>
- 	<%= f.label :name %>
- 	<%= f.text_field :name %>
- 	
- 	<%= f.label :image_url %>
- 	<%= f.text_field :image_url %>
- 	
- 	<%= f.submit %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  
+  <%= f.label :image_url %>
+  <%= f.text_field :image_url %>
+  
+  <%= f.submit %>
  <% end %>
 ```
 
@@ -312,13 +312,13 @@ Partial view `app/views/muppets/_form.html.erb`:
 
 ```
  <%= form_for @muppet do |f| %>
- 	<%= f.label :name %>
- 	<%= f.text_field :name %>
- 	
- 	<%= f.label :image_url %>
- 	<%= f.text_field :image_url %>
- 	
- 	<%= f.submit %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  
+  <%= f.label :image_url %>
+  <%= f.text_field :image_url %>
+  
+  <%= f.submit %>
  <% end %>
 ```
 
